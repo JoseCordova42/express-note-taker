@@ -4,13 +4,20 @@ const fs = require('fs');
 const path = require('path');
 const dataBase = require('../db/db.json');
 
-console.log(dataBase);
-
 router.get('/notes', (req, res) => {
     res.json(dataBase);
 });
 
-// app.post('/notes', (req, res) => {
+router.post('/notes', (req, res) => {
+    dataBase.push(req.body);
+
+    fs.writeFile('./db/db.json', JSON.stringify(dataBase, null, '\t'), () => {
+        res.json(dataBase);
+    });
+    
+});
+
+// router.delete('/notes', (req, res) => {
 
 // });
 
