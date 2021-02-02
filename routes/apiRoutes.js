@@ -18,6 +18,8 @@ router.post('/notes', (req, res) => {
         if (err) throw err;
         res.json(dataBase);
     });    
+
+    // res.send(req.body);
     
 });
 
@@ -32,6 +34,8 @@ router.delete('/notes/:id', (req, res) => {
         if (err) throw err;
         res.json(dataBase);
     });    
+
+    // res.send(req.body);
 
 });
 
