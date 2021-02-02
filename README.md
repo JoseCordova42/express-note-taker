@@ -6,6 +6,14 @@
 
 ![CSS 11.4%](https://img.shields.io/badge/CSS-11.4%25-purple)
 
+## Table of Contents
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
 ## Description
 
 Express Note Taker allows the user write, save, view, and delete notes. Just click 'Get Started' at the home page!
@@ -21,6 +29,8 @@ In terminal use `node server.js` to run locally if you choose to download.
 ![Note-Taker-Demo-1](/images/nt-demo1.png)
 
 ![Note-Taker-Demo-2](/images/nt-demo2.png)
+
+Deployed with Heroku at [express-note-taker-123](https://express-note-taker-123.herokuapp.com/).
 
 
 ## Credits
