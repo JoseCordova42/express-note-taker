@@ -1,22 +1,22 @@
 [
 	{
-		"title": "Test Title",
-		"text": "Test text"
+		"title": "work!",
+		"text": "for the love of god!",
+		"id": "8577dec5-60ba-43a2-a512-340ac81b80be"
 	},
 	{
-		"title": "New Title 1",
-		"text": "New text 1!"
+		"title": "new note!",
+		"text": "some text!",
+		"id": "9793670e-fc25-4e71-83b1-e69959b71781"
 	},
 	{
-		"title": "New Note!",
-		"text": "some text!"
+		"title": "asdf",
+		"text": "asdfasdfasdf",
+		"id": "319f6ad6-0301-44ad-83e3-9b52f98ea719"
 	},
 	{
-		"title": "Newest Note!!!",
-		"text": "also some more text!"
-	},
-	{
-		"title": "MOAR NOTES!",
-		"text": "gimmie moar notes!"
+		"title": "something cool!",
+		"text": "hello!",
+		"id": "4a90460c-57ef-4c76-928c-a8e20afadc3e"
 	}
 ]
